@@ -12,18 +12,20 @@ const SideBag = ({bag}) => {
 
     const bagList = bag.map(item => {
         return (
-            <div className="sidebag-list">
+            <>
                 <div className="sidebag-list-item">
                     <img src={data[item.id].src1} alt="" />
                 </div>
-            </div>
+            </>
         )
     })
 
     return (
         <div className="sidebag">
             <h2>Корзина</h2>
-            {bag.length > 0 ? bagList : <EmptyBag/>}
+            <div className="sidebag-list">
+                {bagList}
+            </div>
             <div className="sidebag-viewbag">
                 <Link to="/bag">
                     <button>
