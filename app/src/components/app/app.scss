@@ -19,4 +19,8 @@ body {
   position: relative;
   grid-template-columns: 72px 1fr 345px;
   padding: 16px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }

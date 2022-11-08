@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sosokmorzha1337.github.io/market-app/",
+  "homepage": "https://romani444.github.io/react-market-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -13,6 +13,7 @@
     "react-router-dom": "^6.1.0",
     "react-scripts": "5.0.1",
     "sass": "^1.53.0",
+    "surge": "^0.23.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

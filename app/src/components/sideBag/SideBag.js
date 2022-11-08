@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import EmptyBag from '../emptyBag/EmptyBag';
 
 import './sideBag.scss';
 
